@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
-.main{
-    margin-left: 50px;
+.container{
+    /* margin-left: 50px; */
     height: 200px;
     border: 1px white solid;
     background-color: white;
@@ -26,7 +26,7 @@
     bottom:40px;
 
 }
-#btn{
+#btn1{
     height:38px;
     width: 50px;
     border-radius: 6px;
@@ -35,4 +35,37 @@
 }
 ::placeholder{
     padding-left: 15px;
+}
+#content{
+    padding: 10px;
+}
+#table tr {
+    border: 2px solid rgb(204, 202, 202);
+}
+
+#temp{
+    background-color: whitesmoke;
+}
+#f1
+{
+   
+}
+.mystyle{
+    border: 2px solid black;
+}
+
+table {
+    width: 100%;
+}
+#table tr td:nth-child(1),#table tr td:nth-child(2){
+    width:20%;
+}
+
+td{
+    word-wrap:break-word;
+}
+
+#table tr td:nth-child(3){
+    width:60%;
+    text-align: right;
 }
