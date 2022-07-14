@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    margin-left: 50px;
+    height: 200px;
+    border: 1px white solid;
+    background-color: white;
+    width: 40%;
+}
+.nav{
+   display: inline; 
+   padding-left: 10px;
+}
+#Add_item{
+    height:37px;
+    border: 1px rgb(39, 15, 15) solid;
+ border-radius: 5px;
+ width: 220px;
+
+}
+.button_div{
+    position: relative;
+    left: 240px;
+    bottom:40px;
+
+}
+#btn{
+    height:38px;
+    width: 50px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+}
+::placeholder{
+    padding-left: 15px;
+}
