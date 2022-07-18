@@ -13,22 +13,22 @@
    display: inline; 
    padding-left: 10px;
 }
-#Add_item{
+#NewTask{
     height:37px;
-    border: 1px rgb(39, 15, 15) solid;
+    border: 2px grey solid;
  border-radius: 5px;
- width: 220px;
+ width: 260px;
 
 }
 .button_div{
     position: relative;
-    left: 240px;
+    left: 280px;
     bottom:40px;
 
 }
 #btn1{
     height:38px;
-    width: 50px;
+    width:80px;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.829);
     color: white;
@@ -36,36 +36,42 @@
 ::placeholder{
     padding-left: 15px;
 }
-#content{
+#TaskListContainer{
     padding: 10px;
+    width:fit-content;
 }
-#table tr {
+#TaskList tr {
     border: 2px solid rgb(204, 202, 202);
 }
 
-#temp{
-    background-color: whitesmoke;
-}
-#f1
-{
-   
-}
+
 .mystyle{
     border: 2px solid black;
 }
 
-table {
+TaskList {
     width: 100%;
 }
-#table tr td:nth-child(1),#table tr td:nth-child(2){
+/* #TaskList tr td:nth-child(1),#TaskList tr td:nth-child(2){
     width:20%;
-}
+} */
 
 td{
     word-wrap:break-word;
 }
 
-#table tr td:nth-child(3){
-    width:60%;
+/* #TaskList tr td:nth-child(3){
+    width:40%;
     text-align: right;
+} */
+/* #TaskList tr td:nth-child(4){
+    width:20%;
+    text-align: right;
+} */
+.tr1{
+    border: 2px solid black;
+}
+.task{
+    width: fit-content;
+    height: 30px;
 }

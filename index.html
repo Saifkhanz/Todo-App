@@ -6,7 +6,7 @@
     <title>
         Todo list
     </title>
-    <script src="https://kit.fontawesome.com/1fdcaaf62f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.TaskCompleted/1fdcaaf62f.js" crossorigin="anonymous"></script>
 </head>
 
 <body style="background-color: whitesmoke">
@@ -15,33 +15,32 @@
             Todo List
         </h1>
         <div>
-            <span id="sp1" style="font-size:20px;font-weight: bold;color: brown; padding-left: 25px;">
+            <span id="error" style="font-size:20px;font-weight: bold;color: rgb(172, 103, 103); padding-left: 25px;">
             </span>
         </div>
         <div class="nav">
-            <input type="text" id="Add_item" placeholder="Type here...">
-
+            <input type="text" id="NewTask" placeholder="Type here...">
         </div>
         <div class="button_div">
 
-            <button id="btn1">
-                Add
+            <button onclick="addTask()" id="btn1">
+                <b>ADD</b>
             </button>
         </div>
-        <div id="temp">
+        <div id="stats">
             <div class="total" style="display: inline;">
-                <span> Total :</span>
+                Total :<span id="TaskTotal">0</span>
             </div>
             <div class="completed" style="float: right;">
-                <span> Completed :</span>
+                Completed :<span id="TaskCompleted">0</span>
             </div>
         </div>
-        <div id="content">
-            <table id="table"></table>
+        <div id="TaskListContainer">
+            <table id="TaskList"></table>
         </div>
     </div>
 
-    <script type="text/javascript" src="todo.js">
+    <script type="text/javascript" src="todolist.js">
     </script>
 
 
