@@ -44,7 +44,7 @@ onclick="editTask(${k})">Edit</a>&nbsp&nbsp;<a href="javascript:void(0)" onclick
       serialNo++;
     }
 
-    console.log(taskData);
+    // console.log(taskData);
     document.getElementById("TaskList").innerHTML = taskData;
   }
 }
